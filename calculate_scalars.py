@@ -54,7 +54,7 @@ def calculate_scalars():
 def combine_assessed_cmip(scalar):
     '''
     Convert CMIP6 multimodel mean timeseries into anomalies relative to 1850-1899. Use a LOESS smoother
-    to remove short-term variability in the CMIP5 MMM series. Normalize AR6 assessed and smooted CMIP6 GSAT 
+    to remove short-term variability in the CMIP6 MMM series. Normalize AR6 assessed and smooted CMIP6 GSAT 
     to 2015 when AR6 assessed warming projections begin. Calculate a scalar based on the ratio of the two.
     '''
     scalar.sort_values(by=['Year'], inplace=True)
