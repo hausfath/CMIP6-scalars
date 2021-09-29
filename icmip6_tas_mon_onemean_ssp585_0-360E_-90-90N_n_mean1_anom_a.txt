@@ -1,0 +1,312 @@
+# file :: ./data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n_mean1_anom.dat
+# description :: onemean ssp585 tas 0-360E -90-90N
+# olderfile :: /home/oldenbor/climexp/data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n.dat
+# minimal_valid_fraction ::  30.00
+# olderfile :: CMIP6/monthly/tas/tas_mon_one_ssp585_192_ave.nc
+# cdi :: Climate Data Interface version ?? (http://mpimet.mpg.de/cdi)
+# source :: ACCESS-CM2 (2019): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: CABLE2.5\nlandIce: none\nocean: ACCESS-OM2 (GFDL-MOM5, tripolar primarily 1deg; 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE5.1.2 (same grid a
+# institution :: KNMI Climate Explorer and CSIRO (Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia), ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)
+# activity_id :: CMIP
+# branch_method :: standard
+# creation_date :: 2019-11-08T06:41:46Z
+# data_specs_version :: 01.00.30
+# experiment :: all-forcing simulation of the recent past
+# experiment_id :: historical
+# external_variables :: areacella
+# forcing_index ::                1
+# frequency :: mon
+# further_info_url :: https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.historical.none.r1i1p1f1
+# grid :: native atmosphere N96 grid (144x192 latxlon)
+# grid_label :: gn
+# initialization_index ::                1
+# institution_id :: CSIRO-ARCCSS
+# mip_era :: CMIP6
+# nominal_resolution :: 250 km
+# notes :: Exp: CM2-historical; Local ID: bj594; Variable: tas (['fld_s03i236'])
+# parent_activity_id :: CMIP
+# parent_experiment_id :: piControl
+# parent_mip_era :: CMIP6
+# parent_source_id :: ACCESS-CM2
+# parent_time_units :: days since 0950-01-01
+# parent_variant_label :: r1i1p1f1
+# physics_index ::                1
+# product :: model-output
+# realization_index ::                1
+# realm :: atmos
+# run_variant :: forcing: GHG, Oz, SA, Sl, Vl, BC, OC, (GHG = CO2, N2O, CH4, CFC11, CFC12, CFC113, HCFC22, HFC125, HFC134a)
+# source_id :: ACCESS-CM2
+# source_type :: AOGCM
+# sub_experiment :: none
+# sub_experiment_id :: none
+# table_id :: Amon
+# table_info :: Creation Date:(30 April 2019) MD5:e14f55f257cceafb2523e41244962371
+# variable_id :: tas
+# variant_label :: r1i1p1f1
+# version :: v20191108
+# cmor_version :: 3.4.0
+# tracking_id :: hdl:21.14100/d893128b-e107-4dcc-b543-46c77896f295
+# license :: CMIP6 model data produced by CSIRO is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.
+# cmip6-ng :: \ncontact = cmip6-archive@env.ethz.ch\ndescription = ETH Zurich CMIP6 "next generation" (ng) archive.\ndisclaimer = This dataset is provided "as is", without warranty of any kind.\nfixes = delete latitude bounds; delete longitude bounds; delete time bounds, re-define time unit\ngit = 2020-01-17 18:00:44 git@git.iac.ethz.ch:cmip6-ng/cmip6-ng.git: master v1.5-18-g35c2064\nownership = The ownership of this dataset remains with the original provider\nunfixed_is
+# original_file_names :: /net/atmos/data/cmip6/historical/Amon/tas/ACCESS-CM2/r1i1p1f1/gn/tas_Amon_ACCESS-CM2_historical_r1i1p1f1_gn_185001-201412.nc
+# original_file_hash_codes :: 3e106e8430f04cd2b260a7230b1e461ccebdda338d09e3f07e8497678c5c6f0f
+# nco :: 4.7.2
+# cdo :: Climate Data Operators version 1.9.3 (http://mpimet.mpg.de/cdo)
+# scripturl01 :: https://climexp.knmi.nl/get_index.cgi?email=$id&field=cmip6_tas_mon_onemean_ssp585&gridpoints=false&intertype=nearest&lat1=-90&lat2=90&lon1=0&lon2=360&minfac=30
+# ave_region :: lon=   -0.938  359.062, lat=  -90.000   90.000
+# comment :: \n
+# scripturl02 :: https://climexp.knmi.nl/daily2longer.cgi?EMAIL=$id&NAME=mean&NPERYEAR=12&STATION=onemean_ssp585_tas_0-360E_-90-90N&TYPE=i&WMO=cmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n&addoption=add_anom&nperyearnew=1&oper=mean&sum=1
+# title :: spatial statistic of ACCESS-CM2 output prepared for CMIP6
+# history ::  2021-09-28  0:57:18 ./bin/plotdat anomal ./data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n_mean1_anom.dat\n 2021-09-28  0:57:17 dat2nc ./data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n_mean1_anom.dat i onemean_ssp585_tas_0-360E_-90-90N ./data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n_mean1_anom.nc\n 2021-09-28  0:57:17 bin/daily2longer data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n.dat 1 mean add_anom cmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n_mean1_anom\n 2021-09-28  0:55:55 dat2nc ./data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n.dat i onemean_ssp585_tas_0-360E_-90-90N ./data/icmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n.nc\n 2021-09-28  0:55:53 bin/get_index CMIP6/monthly/tas/tas_mon_one_ssp585_192_ave.nc 0 360 -90 90 dipole no minfac 30 nearest cmip6_tas_mon_onemean_ssp585_0-360E_-90-90N_n\nThu Jun 24 20:34:44 2021: cdo -r -f nc4 -z zip ensmean tas_mon_one_ssp585_192_000.nc tas_mon_one_ssp585_192_001.nc tas_mon_one_ssp585_192_002.nc tas_mon_one_ssp585_192_003.nc tas_mon_one_ssp585_192_004.nc tas_mon_one_ssp585_192_005.nc tas_mon_one_ssp585_192_006.nc tas_mon_one_ssp585_192_007.nc tas_mon_one_ssp585_192_008.nc tas_mon_one_ssp585_192_009.nc tas_mon_one_ssp585_192_010.nc tas_mon_one_ssp585_192_011.nc tas_mon_one_ssp585_192_012.nc tas_mon_one_ssp585_192_013.nc tas_mon_one_ssp585_192_014.nc tas_mon_one_ssp585_192_015.nc tas_mon_one_ssp585_192_016.nc tas_mon_one_ssp585_192_017.nc tas_mon_one_ssp585_192_018.nc tas_mon_one_ssp585_192_019.nc tas_mon_one_ssp585_192_020.nc tas_mon_one_ssp585_192_021.nc tas_mon_one_ssp585_192_022.nc tas_mon_one_ssp585_192_023.nc tas_mon_one_ssp585_192_024.nc tas_mon_one_ssp585_192_025.nc tas_mon_one_ssp585_192_026.nc tas_mon_one_ssp585_192_027.nc tas_mon_one_ssp585_192_028.nc tas_mon_one_ssp585_192_029.nc tas_mon_one_ssp585_192_030.nc tas_mon_one_ssp585_192_031.nc tas_mon_one_ssp585_192_032.nc tas_mon_one_ssp585_192_033.nc tas_mon_one_ssp585_192_034.nc tas_mon_one_ssp585_192_035.nc tas_mon_one_ssp585_192_036.nc tas_mon_one_ssp585_192_037.nc tas_mon_one_ssp585_192_ave.nc\nThu Jun 24 08:57:19 2021: ncks -v tas tas_mon_ACCESS-CM2_ssp585_192_000.nc tmptas_mon_ACCESS-CM2_ssp585_192_000.nc\nFri Jun 18 19:44:46 2021: cdo -r -f nc4 -z zip remapbil,r192x144 tas_mon_ACCESS-CM2_historical+ssp585_r1i1p1f1_CEmerged_ETH_native.nc /home/oldenbor/climexp_data/CMIP6/monthly/tas/tas_mon_ACCESS-CM2_ssp585_r1i1p1f1_192_000.nc\n2019-11-08T06:41:46Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.
+# tas [Celsius] annual mean of Near-Surface Air Temperature
+ 1850.0000  -1.21053    
+ 1851.0000  -1.20508    
+ 1852.0000  -1.19366    
+ 1853.0000  -1.19180    
+ 1854.0000  -1.19301    
+ 1855.0000  -1.19423    
+ 1856.0000  -1.19715    
+ 1857.0000  -1.18659    
+ 1858.0000  -1.21915    
+ 1859.0000  -1.18030    
+ 1860.0000  -1.20744    
+ 1861.0000  -1.23874    
+ 1862.0000  -1.29481    
+ 1863.0000  -1.24934    
+ 1864.0000  -1.20592    
+ 1865.0000  -1.21552    
+ 1866.0000  -1.18569    
+ 1867.0000  -1.19843    
+ 1868.0000  -1.20105    
+ 1869.0000  -1.20470    
+ 1870.0000  -1.21746    
+ 1871.0000  -1.19093    
+ 1872.0000  -1.17656    
+ 1873.0000  -1.20906    
+ 1874.0000  -1.22369    
+ 1875.0000  -1.21073    
+ 1876.0000  -1.21548    
+ 1877.0000  -1.16596    
+ 1878.0000  -1.17348    
+ 1879.0000  -1.20655    
+ 1880.0000  -1.18878    
+ 1881.0000  -1.19226    
+ 1882.0000  -1.20327    
+ 1883.0000  -1.21518    
+ 1884.0000  -1.52372    
+ 1885.0000  -1.48076    
+ 1886.0000  -1.37018    
+ 1887.0000  -1.33004    
+ 1888.0000  -1.27291    
+ 1889.0000  -1.26647    
+ 1890.0000  -1.28205    
+ 1891.0000  -1.28737    
+ 1892.0000  -1.25176    
+ 1893.0000  -1.23551    
+ 1894.0000  -1.20737    
+ 1895.0000  -1.19975    
+ 1896.0000  -1.21283    
+ 1897.0000  -1.17517    
+ 1898.0000  -1.15214    
+ 1899.0000  -1.15648    
+ 1900.0000  -1.17018    
+ 1901.0000  -1.14998    
+ 1902.0000  -1.18089    
+ 1903.0000  -1.33673    
+ 1904.0000  -1.27638    
+ 1905.0000  -1.26613    
+ 1906.0000  -1.25437    
+ 1907.0000  -1.23140    
+ 1908.0000  -1.20667    
+ 1909.0000  -1.18901    
+ 1910.0000  -1.16773    
+ 1911.0000  -1.15231    
+ 1912.0000  -1.24090    
+ 1913.0000  -1.28006    
+ 1914.0000  -1.23209    
+ 1915.0000  -1.18427    
+ 1916.0000  -1.17379    
+ 1917.0000  -1.14475    
+ 1918.0000  -1.11173    
+ 1919.0000  -1.11351    
+ 1920.0000  -1.12425    
+ 1921.0000  -1.09439    
+ 1922.0000  -1.12448    
+ 1923.0000  -1.10575    
+ 1924.0000  -1.10731    
+ 1925.0000  -1.09528    
+ 1926.0000  -1.09486    
+ 1927.0000  -1.08487    
+ 1928.0000  -1.04010    
+ 1929.0000  -1.05770    
+ 1930.0000  -1.08440    
+ 1931.0000  -1.09210    
+ 1932.0000  -1.04870    
+ 1933.0000  -1.08136    
+ 1934.0000  -1.06932    
+ 1935.0000  -1.03705    
+ 1936.0000  -1.04492    
+ 1937.0000  -1.04621    
+ 1938.0000  -1.02863    
+ 1939.0000  -1.03938    
+ 1940.0000  -1.01909    
+ 1941.0000  -1.00617    
+ 1942.0000  -1.00601    
+ 1943.0000  -1.01241    
+ 1944.0000  -1.00681    
+ 1945.0000  -1.02018    
+ 1946.0000  -1.01118    
+ 1947.0000  -1.01693    
+ 1948.0000 -0.978191    
+ 1949.0000 -0.953721    
+ 1950.0000 -0.966962    
+ 1951.0000 -0.974591    
+ 1952.0000 -0.966222    
+ 1953.0000 -0.958781    
+ 1954.0000 -0.978211    
+ 1955.0000 -0.977112    
+ 1956.0000 -0.983562    
+ 1957.0000 -0.959962    
+ 1958.0000 -0.955702    
+ 1959.0000 -0.948562    
+ 1960.0000 -0.948192    
+ 1961.0000 -0.926611    
+ 1962.0000 -0.955821    
+ 1963.0000  -1.07578    
+ 1964.0000  -1.14795    
+ 1965.0000  -1.10763    
+ 1966.0000  -1.06818    
+ 1967.0000  -1.11359    
+ 1968.0000  -1.05925    
+ 1969.0000  -1.04471    
+ 1970.0000  -1.00392    
+ 1971.0000 -0.991991    
+ 1972.0000  -1.00968    
+ 1973.0000 -0.967952    
+ 1974.0000 -0.933151    
+ 1975.0000 -0.986591    
+ 1976.0000 -0.985222    
+ 1977.0000 -0.911531    
+ 1978.0000 -0.904922    
+ 1979.0000 -0.891071    
+ 1980.0000 -0.841782    
+ 1981.0000 -0.813031    
+ 1982.0000 -0.867171    
+ 1983.0000 -0.969511    
+ 1984.0000 -0.891111    
+ 1985.0000 -0.853241    
+ 1986.0000 -0.829891    
+ 1987.0000 -0.785421    
+ 1988.0000 -0.749341    
+ 1989.0000 -0.662831    
+ 1990.0000 -0.591771    
+ 1991.0000 -0.626661    
+ 1992.0000 -0.922582    
+ 1993.0000 -0.873422    
+ 1994.0000 -0.755032    
+ 1995.0000 -0.699351    
+ 1996.0000 -0.608702    
+ 1997.0000 -0.549562    
+ 1998.0000 -0.536712    
+ 1999.0000 -0.495002    
+ 2000.0000 -0.443042    
+ 2001.0000 -0.374742    
+ 2002.0000 -0.354012    
+ 2003.0000 -0.325722    
+ 2004.0000 -0.299031    
+ 2005.0000 -0.302081    
+ 2006.0000 -0.311022    
+ 2007.0000 -0.279942    
+ 2008.0000 -0.235071    
+ 2009.0000 -0.238341    
+ 2010.0000 -0.216592    
+ 2011.0000 -0.189752    
+ 2012.0000 -0.119922    
+ 2013.0000 -0.108562    
+ 2014.0000 -0.100821    
+ 2015.0000 -0.475216E-01
+ 2016.0000 -0.491142E-02
+ 2017.0000  0.336285E-01
+ 2018.0000  0.615788E-01
+ 2019.0000  0.976887E-01
+ 2020.0000  0.127209    
+ 2021.0000  0.172878    
+ 2022.0000  0.185039    
+ 2023.0000  0.232649    
+ 2024.0000  0.300138    
+ 2025.0000  0.333348    
+ 2026.0000  0.357348    
+ 2027.0000  0.371049    
+ 2028.0000  0.422969    
+ 2029.0000  0.455069    
+ 2030.0000  0.493158    
+ 2031.0000  0.556998    
+ 2032.0000  0.550448    
+ 2033.0000  0.558429    
+ 2034.0000  0.614489    
+ 2035.0000  0.674329    
+ 2036.0000  0.745218    
+ 2037.0000  0.798148    
+ 2038.0000  0.827019    
+ 2039.0000  0.840858    
+ 2040.0000  0.933108    
+ 2041.0000  0.952949    
+ 2042.0000  0.980529    
+ 2043.0000   1.07404    
+ 2044.0000   1.11489    
+ 2045.0000   1.12015    
+ 2046.0000   1.16190    
+ 2047.0000   1.22871    
+ 2048.0000   1.30891    
+ 2049.0000   1.38217    
+ 2050.0000   1.38936    
+ 2051.0000   1.39758    
+ 2052.0000   1.48499    
+ 2053.0000   1.53962    
+ 2054.0000   1.59410    
+ 2055.0000   1.64705    
+ 2056.0000   1.70890    
+ 2057.0000   1.74018    
+ 2058.0000   1.81765    
+ 2059.0000   1.90247    
+ 2060.0000   1.93344    
+ 2061.0000   1.97177    
+ 2062.0000   2.03645    
+ 2063.0000   2.08168    
+ 2064.0000   2.11014    
+ 2065.0000   2.16033    
+ 2066.0000   2.25182    
+ 2067.0000   2.30350    
+ 2068.0000   2.36265    
+ 2069.0000   2.44208    
+ 2070.0000   2.51497    
+ 2071.0000   2.56308    
+ 2072.0000   2.63265    
+ 2073.0000   2.69725    
+ 2074.0000   2.72213    
+ 2075.0000   2.78279    
+ 2076.0000   2.83816    
+ 2077.0000   2.90075    
+ 2078.0000   2.95611    
+ 2079.0000   3.03964    
+ 2080.0000   3.11546    
+ 2081.0000   3.18039    
+ 2082.0000   3.24230    
+ 2083.0000   3.30324    
+ 2084.0000   3.38486    
+ 2085.0000   3.45737    
+ 2086.0000   3.48831    
+ 2087.0000   3.53912    
+ 2088.0000   3.63409    
+ 2089.0000   3.68869    
+ 2090.0000   3.74683    
+ 2091.0000   3.83846    
+ 2092.0000   3.87373    
+ 2093.0000   3.96102    
+ 2094.0000   4.04234    
+ 2095.0000   4.08390    
+ 2096.0000   4.13072    
+ 2097.0000   4.20801    
+ 2098.0000   4.28013    
+ 2099.0000   4.32381    
+ 2100.0000   4.42783    
+
